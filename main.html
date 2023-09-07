@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="/css/common.css" />
     <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
 
-    <link rel="stylesheet" type="text/css" href="/css/UntitledPage.css" />
+    <link rel="stylesheet" type="text/css" href="/css/tailwind.css" />
 
     <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="https://unpkg.com/sticky-js@1.3.0/dist/sticky.min.js"></script>
@@ -27,53 +27,112 @@
   </head>
 
   <body class="flex-column">
-    <main class="untitled-page main">
-      <section class="section1" style="--src:url(/assets/0f7df17f0feee46509b8bd836a03fd50.png)">
-        <div class="flex_col">
-          <h1 class="hero_title">Hello! We’re Tiny Games!</h1>
-          <div class="content_box">
-            <img class="image" src="/assets/4624a06e47dbfe7da60b8544dc69b6b5.png" alt="alt text" />
+    <main
+      class="untitled-page bg-white pt-[undefinedpx] pr-[undefinedpx] pb-[undefinedpx] pl-[undefinedpx] flex flex-col overflow-hidden relative"
+    >
+      <section
+        class="grid bg-[image:var(--src)] bg-[center_center] bg-cover bg-no-repeat relative min-h-[566px] max-h-[566px]"
+        style="--src:url(/assets/0f7df17f0feee46509b8bd836a03fd50.png)"
+      >
+        <div class="w-[54.01%] flex flex-col gap-y-[39px] grow relative mt-[55px] mr-[20.47%] mb-[140px] ml-[25.52%]">
+          <h1 class="font-medium text-[79px] leading-[1.2] font-Plumpfull text-white mx-auto">
+            Hello! We’re Tiny Games!
+          </h1>
+          <div
+            class="grid bg-white rounded-[118.5px] outline outline-black outline-[17px] w-[22.85%] shadow-[inset_0px_4px_42px_74px_rgba(0,0,0,0.14901960784313725)] relative mx-auto"
+          >
+            <img
+              class="w-[140px] object-cover grow min-h-[146px] mt-[58px] mx-auto mb-[33px]"
+              src="/assets/4624a06e47dbfe7da60b8544dc69b6b5.png"
+              alt="alt text"
+            />
           </div>
         </div>
       </section>
 
-      <section class="section2" style="--src:url(/assets/a7e7ede114e776fc8470604c563d65b9.png)">
-        <div class="group"></div>
-        <img class="cover6" src="/assets/340a80108850bf12d4c2c2e14a29c1bd.png" alt="alt text" />
-        <h1 class="hero_title4">Learn More</h1>
+      <section
+        class="grid bg-[image:var(--src)] bg-[center_center] bg-cover bg-no-repeat relative min-h-[1083px]"
+        style="--src:url(/assets/a7e7ede114e776fc8470604c563d65b9.png)"
+      >
+        <div class="grid w-[44.38%] grow relative min-h-[173px] mt-[871px] mx-auto mb-[39px]"></div>
+        <img
+          class="rounded-[41px] w-[44.38%] h-[173px] object-cover absolute left-0 right-0 bottom-[39px] min-h-[173px] mx-auto"
+          src="/assets/340a80108850bf12d4c2c2e14a29c1bd.png"
+          alt="alt text"
+        />
+        <h1
+          class="flex justify-center font-medium text-[128px] leading-[1.2] font-Plumpfull text-white text-center w-[39.79%] h-[154px] absolute left-0 right-0 bottom-7 mx-auto"
+        >
+          Learn More
+        </h1>
       </section>
 
-      <section class="section3" style="--src:url(/assets/b9763ee6179a72a482ca0da5b610fc0a.png)">
-        <div class="flex_col1">
-          <div class="flex_row">
-            <div class="content_box1" style="--src:url(/assets/d81a9b68fc917466d314c7f6219efda4.png)">
-              <div class="flex_col2">
-                <img class="image1" src="/assets/2cd14929d33d507bd1667d5a28e29887.png" alt="alt text" />
-                <h1 class="hero_title1">Projects</h1>
+      <section
+        class="grid bg-[image:var(--src)] bg-[center_center] bg-cover bg-no-repeat relative min-h-[1117px]"
+        style="--src:url(/assets/b9763ee6179a72a482ca0da5b610fc0a.png)"
+      >
+        <div class="w-[58.91%] flex flex-col gap-y-[53px] grow relative mt-[62px] mr-[18.13%] mb-[74px] ml-[22.97%]">
+          <div class="flex items-center relative">
+            <div
+              class="grid bg-[image:var(--src)] bg-[center_center] bg-cover bg-no-repeat rounded-[28px] shrink-0 basis-[349px] relative"
+              style="--src:url(/assets/d81a9b68fc917466d314c7f6219efda4.png)"
+            >
+              <div class="flex flex-col gap-y-20 grow relative mt-9 mx-2 mb-[25px]">
+                <img
+                  class="rounded-[119.5px] w-[71.77%] object-cover min-h-[239px] mx-auto"
+                  src="/assets/2cd14929d33d507bd1667d5a28e29887.png"
+                  alt="alt text"
+                />
+                <h1 class="font-medium text-[83px] leading-[1.2] font-Plumpfull text-white">Projects</h1>
               </div>
             </div>
-            <div class="spacer"></div>
-            <div class="content_box1" style="--src:url(/assets/dd47c8cbd17cca9643f5c5f6e10a04b4.png)">
-              <div class="flex_col3">
-                <img class="image11" src="/assets/2cd14929d33d507bd1667d5a28e29887.png" alt="alt text" />
-                <h1 class="hero_title11">Blog</h1>
+            <div class="basis-7"></div>
+            <div
+              class="grid bg-[image:var(--src)] bg-[center_center] bg-cover bg-no-repeat rounded-[28px] shrink-0 basis-[349px] relative"
+              style="--src:url(/assets/dd47c8cbd17cca9643f5c5f6e10a04b4.png)"
+            >
+              <div class="w-[68.48%] flex flex-col gap-y-20 grow relative mt-9 mx-auto mb-[25px]">
+                <img
+                  class="rounded-[119.5px] w-full object-cover min-h-[239px]"
+                  src="/assets/2cd14929d33d507bd1667d5a28e29887.png"
+                  alt="alt text"
+                />
+                <h1 class="font-medium text-[83px] leading-[1.2] font-Plumpfull text-white mr-[30px] ml-[21px]">
+                  Blog
+                </h1>
               </div>
             </div>
-            <div class="spacer"></div>
-            <div class="content_box3" style="--src:url(/assets/482a16b207700840323a38959e3b24f4.png)">
-              <div class="flex_col4">
-                <img class="image12" src="/assets/2cd14929d33d507bd1667d5a28e29887.png" alt="alt text" />
-                <h1 class="hero_title3">About Us</h1>
+            <div class="basis-7"></div>
+            <div
+              class="grid bg-[image:var(--src)] bg-[center_center] bg-cover bg-no-repeat rounded-[28px] shrink-0 basis-[377px] relative"
+              style="--src:url(/assets/482a16b207700840323a38959e3b24f4.png)"
+            >
+              <div class="flex flex-col gap-y-20 grow relative mt-9 mr-[13px] mb-[33px] ml-3.5">
+                <img
+                  class="rounded-[119.5px] w-[68.29%] object-cover min-h-[239px] mr-[19.71%] ml-[12%]"
+                  src="/assets/2cd14929d33d507bd1667d5a28e29887.png"
+                  alt="alt text"
+                />
+                <h1 class="font-medium text-[76px] leading-[1.2] font-Plumpfull text-white">About Us</h1>
               </div>
             </div>
           </div>
-          <div class="content_box4" style="--src:url(/assets/982b543f0b5257aefed26125aa43ed49.png)">
-            <div class="flex_col5">
-              <div class="group1">
-                <div class="rect1"></div>
-                <h1 class="hero_title5">N</h1>
+          <div
+            class="grid bg-[image:var(--src)] bg-[center_center] bg-cover bg-no-repeat rounded-[28px] relative"
+            style="--src:url(/assets/982b543f0b5257aefed26125aa43ed49.png)"
+          >
+            <div class="w-[84.7%] flex flex-col gap-y-[99px] grow relative mt-[41px] mr-[9.2%] mb-16 ml-[6.1%]">
+              <div class="grid w-[19.21%] relative min-h-[184px] mx-auto">
+                <div
+                  class="bg-black rounded-[92px] outline outline-[rgb(0,194,255)] outline-[13px] shadow-[inset_0px_4px_51px_8px_rgb(0,102,255)] grow min-h-[184px]"
+                ></div>
+                <h1
+                  class="font-medium text-[121px] leading-[1.2] font-Plumpfull text-white w-[91px] absolute left-0 right-0 top-[45px] bottom-[-7px] mx-auto"
+                >
+                  N
+                </h1>
               </div>
-              <h1 class="hero_title2">Register to Tiny-Network!</h1>
+              <h1 class="font-medium text-[70px] leading-[1.2] font-Plumpfull text-white">Register to Tiny-Network!</h1>
             </div>
           </div>
         </div>
